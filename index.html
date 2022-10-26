@@ -1,337 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Adejsha Francis' Webfolio</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Simple line icons-->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
-      rel="stylesheet"
-    />
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Leo's Rapid Service</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
 
-    <style>
-        .tab {
-            display: inline-block;
-            margin-left: 40px;
-        }
-    </style>
+        <!--Style-->
+          <style>
+            .title {
+              padding: 30px;
+              text-align: center;
+              background: #F4B63F ;
+              color: white;
+              font-size: 35px;
 
-  </head>
+            }
+            body {
+                background-image: url('/assets/dark_blue_bg.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+              }
+            header {
+              background-image: url('/assets/lightgrey_wood_bg.jpg');
+              background-repeat: no-repeat;
+              background-size: 100% 100%;
+            }
+             h3 {
+              color: #fff;
+            }
+            h1 {
+              color: #fff;
+            }
+            h4 {
+              color: red;
+            }
+            p {
+              color: #fff;
+            }
+            form{
+              background: white;
+              display: flex;
+              flex-direction: column;
+              padding: 2vw 3vw;
+              width: 100%;
+              max width: 1
+              00px;
+              border-radius: 10px;
+            }
+            form input, form textarea {
+              border: 0;
+              margin: 10px 0;
+              padding: 20px;
+              outline: none;
+              background:f5f5f5;
+              font-size:16px;
+            }
+            form button {
+              padding: 15px;
+              background: #ffb400;
+              color: #545454;
+              font-size:18px;
+              border: 0;
+              outline: none;
+              cursor: pointer;
+              width:150px;
+              margin: 2px auto 0;
+              border-radius:30px;
+            }
+          </style>
 
-  <body id="page-top">
-
-    <!-- Navigation-->
-    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li class="sidebar-nav-item"><a href="#about">About</a></li>
-        <li class="sidebar-nav-item"><a href="#experience">Experience</a></li>
-        <li class="sidebar-nav-item"><a href="#education">Education</a></li>
-        <li class="sidebar-nav-item"><a href="#skills">Skills</a></li>
-        <li class="sidebar-nav-item"><a href="#project">Projects</a></li>
-        <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-
-
-    <!-- Header-->
-    <header class="masthead d-flex align-items-center">
-      <div class="container px-4 px-lg-5 text-center">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/me3.jpg" alt="..." />
-        
-        <h1 style="color:#ffffff;" class="mb-1">Hi! I'm Adejsha</h1>
-        <h4 style="color:#ffffff;"><em>Full-Stack Developer & Your Future Employee</em></h4>
-      </div>
-    </header>
-
-
-    <!-- About: NEED TO LINK RESUME-->
-    <section class="content-section bg-black py-5 text-white" id="about">
-      <div class="container px-4 px-lg-5 text-center">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-10">
-            <div class="content-section-heading">
-              <h2 class="mb-5">ABOUT</h2>
-            </div>
-            <p class="lead mb-5">
-               I am a Full-Stack developer with a passion for front-end design, data analysis, and cyber-security. I am experienced in building websites that
-               reflected my creativity and my team’s overall vision. My priority is to guarantee efficient web
-               development!
-            </p>
-            <!--Link Resume pdf here
-             <a onclick="location.href='Stuff/Francis-Resume.pdf';" class="btn btn-primary btn-xl">View Resume
-             </a>-->
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!--Experience-->
-    <section class="content-section bg-light py-5 text-white" id="experience">
-      <div class="container px-4 px-lg-5 text-center">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-10">
-             <div class="content-section-heading">
-              <h3 class="text-secondary mb-0">Where I've Been</h3>
-              <h2 class="mb-5">EXPERIENCE</h2>
-             </div>
-            <h3 class="mb-0">Operations Support</h3>
-            <div class="subheading mb-2">BASS Underwriters</div>
-            <p> Review related supporting documentation for accuracy.
-                Efficiently process the needed insurance document from various company software based on task
-                  chosen.
-                Send documents to the appropriate department. Perform effective communication with
-                  underwriters, underwriter assistants, agents and carriers via email and phone correspondence.
-                Handle escalated issues and follow-up on outstanding issues promptly.
-                Maintain and exceed daily task goals.</p>
-            <div class="flex-shrink-3 mb-4"><span class="text-primary">August 2018 - Present</span></div>
-            <h3 class="mb-0">Computer Science Instructor</h3>
-            <div class="subheading mb-2">Code Explorers</div>
-            <p>Instruct young people (mostly in groups of 15+) on basic computer and engineering fundamentals, hands-on circuit
-              related projects and how to program with software and applications such as Scratch and Minecraft Modding.
-              Create and review lesson plans that implement computer science, technology and engineering concepts that are
-              comprehensible to engineer novices.
-              Train high school and college students how to instruct lesson plans to young people.</p>
-            <span class="text-primary">September 2018 - May 2020</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!--Eduation-->
-    <section class="content-section bg-black py-5 text-white" id="education">
-      <div class="container px-4 px-lg-5 text-center">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-10">
-            <div class="content-section-heading">
-              <h3 class="text-secondary mb-0">What I've Earned</h3>
-              <h2 class="mb-5">EDUCATION</h2>
-            </div>
-           <div class="flex-grow-1">
-              <h3 class="mb-0">Florida Atlantic University</h3>
-              <div class="subheading mb-0">Bachelor of Science in Computer Science</div>
-            </div>
-            <div class="flex-shrink-3 mb-4"><span class="text-primary">January 2019 - May 2022</span></div>
-          </div>
-          <br>
-          <br>
-          <div class="flex-grow-1">
-              <h3 class="mb-0">Broward College</h3>
-              <div class="subheading mb-0">Associate of Arts in General Studies</div>
-            </div>
-            <div class="flex-shrink-3"><span class="text-primary">August 2015 - May 2018</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Skills: NEED TO FIX/REMOVE ICONS-->
-    <section
-      class="content-section text-white text-center bg-light2"
-      id="skills"
-    >
-      <div class="container px-4 px-lg-5">
-        <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">What I Offer</h3>
-          <h2 class="mb-5">SKILLS</h2>
-        </div>
-        <div class="row gx-4 gx-lg-5">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3"
-              ><img
-                class="img-fluid"
-                src="assets/img/keyboard.png"
-                alt="icon1"
-                 height="65" width="65"/></span>
-            <h4><strong>Languages
-            </strong></h4>
-            <p class="text-faded mb-0">C/C++, JavaScript, HTML/CSS, Python, Java</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3"
-              ><img
-                class="img-fluid"
-                src="assets/img/database.png"
-                alt="icon2"
-                 height="55" width="55"/></span>
-            <h4><strong>Database Management</strong></h4>
-            <p class="text-faded mb-0">SQL, mySQL</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3"
-              ><img
-                class="img-fluid"
-                src="assets/img/structure.png"
-                alt="icon3"
-                 height="65" width="65"/></span>
-            <h4><strong>Technologies & Frameworks</strong></h4>
-            <p class="text-faded mb-0">
-             Django, Bootstrap</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3"
-              ><img
-                class="img-fluid"
-                src="assets/img/wrench.png"
-                alt="icon4"
-                 height="55" width="55"/></span>
-            <h4><strong>Tools & Software</strong></h4>
-            <p class="text-faded mb-0">GitHub, Chrome Developer Tools, Microsoft Suite 365, Visual Studio Code, Adobe
-              Photoshop, pycharm</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Projects: NEED TO LINK TO TEAM PROJECTS-->
-    <section class="content-section bg-black text-white" id="project">
-      <div class="container px-4 px-lg-5">
-        <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0">What I've done</h3>
-          <h2 class="mb-5">Projects</h2>
-        </div>
-        <div class="container px-4 px-lg-5 text-center">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-10">
-            <div class="content-section-heading">
-              <h3 class="mb-2 text-secondary"><em>Team Projects</em></h3>
-            </div>
-           <div class="flex-grow-1">
-              <h3 class="mb-0">Neologic Audio - Django Playlist Builder</h3>
-              <div class="subheading mb-0">Lead UI/UX Engineer</div>
-            </div>
-            <p>
-              Worked in a team of five where I was in charge of the application design that assists the streaming music business
-              Resonate in their task of creating featured playlists to improve user experience using a new search recommendation
-              engine that finds tracks tailored towards the user’s interest. The project utilizes the Django-Neomodel plugin and Neo4j
-              database, along with the Resonate RESTful API Service.
-            </p>
-            <div class="flex-shrink-3 mb-5"><span class="text-primary">August 2021 - May 2022</span></div>
-          </div>
-          <br>
-          <br>
-          <div class="flex-grow-1">
-              <h3 class="mb-0">Groceree - Food Delivery Forum</h3>
-              <div class="subheading mb-0">Lead UI/UX Engineer</div>
-            </div>
-            <p>
-              Worked in a team of five where I was in charge of all application design that assisted with the development of an
-              on-demand delivery platform that focused on providing employment to college students. Groceree allowed users to login
-              through their google accounts and post delivery services through a easy to use forum as well as create and view other
-              user’s profiles
-            </p>
-            <div class="flex-shrink-3 mb-4"><span class="text-primary">August 2015 - May 2018</span></div>
-          </div>
-        </div>
-        
-        <div class="content-section-heading text-center">
-              <h3 class="mb-5 text-secondary"><em>Personal Projects</em></h3>
-        </div>
-        <div class="row gx-0">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="https://preview-957004.playcode.io/">
-              <div class="caption">
-                <div class="caption-content">
-                  <div class="h2">Leo's Rapid Service LLC</div>
-                  <p class="mb-0">
-                    A informational webpage that allows users to view electrician services and contact the business via email.
-                  </p>
+    </head>
+    <body>
+  
+        <!-- Header-->
+        <header class="bg-dark py-5" >
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                <img class="mb-4" src="/assets/leorapserv_logo.png" alt="Leo's Rapid Service logo">
+                <h1 class="mb-5" style="color:#003359;"><em>Proudly Serving South Florida & Surrounding Area since 2005</em></h1>
                 </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/proj-leorapserv.png"
-                alt="Image of Leo's Rap Serv webpage"
-              />
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="https://preview-970586.playcode.io/">
-              <div class="caption">
-                <div class="caption-content">
-                  <div class="h2">Under the Palm Teas</div>
-                  <p class="mb-0">
-                    ecommerce website that allos users to view and purchase teas and tea related products.
-                  </p>
+            </div>
+        </header>
+     
+
+        <!-- Service section-->
+        <section class="py-5">
+          <!--<div class="text-center text-white">
+                  <h3>Serving South Florida since 2005.</h3>
+          </div>-->
+            <div class="container px-4 px-lg-5 mt-5">
+            <!--Section title
+            <div class="title">
+              <h1>Electrical Diagnostics, Installs & Repairs</h1>
+            </div>-->
+                <div class="row gx-4 gx-lg-5 align-items-center">
+                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="/assets/elect-working.jpg" alt="Electrician working" /></div>
+                    <div class="col-md-6">
+                    <h1>Electrical Diagnostics, Installs & Repairs</h1>
+                    <p>Main Electrical Panels & Sub Panels<br>
+                                          Electrical Upgrades<br>
+                                          Weatherheads and Meter Sockets<br>
+                                          Circuit Breakers, Fuses, Knob & Tube<br>
+                                          Outlets, Switches, Plugs & GFCI<br>
+                                          Ceiling Fan Installation<br>
+                                          Lighting - Indoor, Outdoor & Security<br>
+                                          Rewiring<br>
+                                          Aluminum Wiring<br>
+                                          Exhaust & Attic Fans<br>
+                                          Renovations<br>
+                                          Smoke & CO2 Detectors<br>
+                                          Surge Protection<br>
+                                          220v Wiring<br></p>
+
+                    
+                    </div>
                 </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/img/coming-soon.png"
-                alt="..."
-              />
-            </a>
-          </div>
-          <!--Can add more tiles here-->
-        </div>
-      </div>
-    </section>
+            </div>
+        </section>
+        
+        <!--Contact-->
+        <section class="text-white text-center" id="email">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <h2 class="mb-4">Need an Electrician? <br>Contact Now!</h2>
+                        <form class="form-subscribe" id="contactFormFooter" onsubmit="sendEmail(); reset(); return false;" >
+                            <!-- Email address input-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                        <input class="form-control form-control-lg" id="nameBelow" type="name" placeholder="Name" data-sb-validations="required,name" />
+                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Name is required.</div>
+                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Name is not valid.</div>
+                                </div>
+                                <div class="col-md-6">
+                                        <input class="form-control form-control-lg" id="phoneBelow" type="phone" placeholder="Phone Number" data-sb-validations="required,phonenumber" />
+                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Phone Number is required.</div>
+                                        <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Phone Number is not valid.</div>
+                                </div>
+                                <div class="col">
+                                    <input class="form-control form-control-lg" id="emailAddressBelow" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
+                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address Email is not valid.</div>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="form-control form-control-lg" id="message" rows="5" placeholder="How can we help you?"></textarea>
+                                </div>
+                                <button type="submit">Send</button>
+                            </div>
+                        </form>
+                        <br>
+                        <h4 class="mb-4">Want to Call Instead? No Problemo!<br>954-647-7632</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+          function sendEmail(){
+            Email.send({
+              SecureToken : "b6209201-1191-44f5-b5c8-1a6838b7ed82",
+              To : 'adejshaf@gmail.com',
+              From : document.getElementById("email").value,
+              Subject : "New Contact Form Enquiry",
+              Body : "Name" + document.getElementById("name").value 
+              + "<br> Email: " + document.getElementById("email").value
+              + "<br> Phone no.: " + document.getElementById("phone").value
+              + "<br> Message: " + document.getElementById("Message").value
+            }).then(
+              message => alert("Message Sent Successful!")
+            );
+          }
+        </script>
+        <br>
+        <br>
 
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Leo's Rapid Services LLC 2022</p></div>
+        </footer>
 
-    <!-- Call to Action: NEED TO LINK TO EMAIL-->
-    <section class="content-section bg-light3 text-white" id="contact">
-      <div class="container px-4 px-lg-5 text-center">
-        <h2 class="mb-4">Like what you see?<br>Email me at<em> adejshaf@gmail.com</em></h2>
-        <!--<a class="btn btn-xl btn-dark" href="#!">Email Me!</a>-->
-      </div>
-    </section>
-
-
-    <!-- Footer: NEED TO LINK TO GITHUB, LINKEDIN, INDEED-->
-    <footer class="footer text-center bg-black">
-      <div class="container px-4 px-lg-5">
-        <!--<ul class="list-inline mb-5">
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#!"
-              ><i class="icon-social-facebook"></i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#!"
-              ><i class="icon-social-twitter"></i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#!"
-              ><i class="icon-social-github"></i
-            ></a>
-          </li>
-        </ul>-->
-        <p class="text-muted small mb-0">Copyright &copy; Adejsha Francis' Webfolio 2022</p>
-      </div>
-    </footer>
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top"
-      ><i class="fas fa-angle-up"></i
-    ></a>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-  </body>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
