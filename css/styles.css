@@ -85,6 +85,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
+  background-image: url('/assets/dark_blue_bg.jpg');
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -11287,3 +11288,21 @@ textarea.form-control-lg {
   }
 }
 
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: url("../assets/white-wood.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.masthead h1, .masthead .h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
